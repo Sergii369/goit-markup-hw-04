@@ -375,6 +375,7 @@ a {
   position: relative;
   list-style: none;
   overflow: hidden;
+  transition: background-color 0.3s ease;
 }
 
 .portfolio-content {
@@ -404,6 +405,7 @@ a {
 }
 
 .thumb {
+  overflow: hidden;
   position: relative;
   width: 100%;
   height: auto;
@@ -427,9 +429,14 @@ a {
 }
 
 .portfolio-item:hover .label {
+  background-color: #404bbf;
   transform: translateY(-100%);
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+
+.portfolio-item:focus {
+  background-color: #404bbf;
 }
 /* Footer */
 
