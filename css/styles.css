@@ -468,10 +468,14 @@ a {
   color: #f4f4fd;
 }
 
-.social-container {
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
+.foter-container {
+  margin-right: 120px;
+}
+
+.container {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
 }
 
 .social-text {
