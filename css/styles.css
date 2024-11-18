@@ -179,7 +179,7 @@ a {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../imeges3/hero image.jpg");
+    url("../images/hero\ image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -470,12 +470,6 @@ a {
 
 .foter-container {
   margin-right: 120px;
-}
-
-.container {
-  display: flex;
-  gap: 16px;
-  align-items: baseline;
 }
 
 .social-text {
