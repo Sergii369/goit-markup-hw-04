@@ -360,10 +360,7 @@ a {
   background-color: #31d0aa;
 }
 
-.icon-instagram,
-.icon-twitter,
-.icon-facebook,
-.icon-linkedin {
+.icon {
   fill: #f4f4fd;
 }
 
@@ -468,8 +465,12 @@ a {
   color: #f4f4fd;
 }
 
-.foter-container {
+.footer-container {
   margin-right: 120px;
+}
+
+.footer-wrapper {
+  display: flex;
 }
 
 .social-text {
@@ -482,9 +483,14 @@ a {
   margin-bottom: 16px;
 }
 
+.social-container {
+  display: flex;
+}
+
 .social-icons {
   display: flex;
   gap: 16px;
+  justify-content: center;
 }
 
 .social-links {
