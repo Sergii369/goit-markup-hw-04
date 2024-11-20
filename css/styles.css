@@ -175,8 +175,11 @@ a {
 .page-hero {
   width: 100%;
   max-width: 1440px;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7)),
-    (rgba(46, 47, 66, 0.7)), url("../images/hero.jpg");
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
