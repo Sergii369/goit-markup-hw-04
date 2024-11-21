@@ -357,7 +357,7 @@ a {
 
 .social-links:hover,
 .social-links:focus {
-  background-color: #31d0aa;
+  background-color: #404bbf;
 }
 
 .icon {
@@ -387,7 +387,7 @@ a {
   border-right: 1px solid #e7e9fc;
 }
 
-.portfolio-titel {
+.portfolio-title {
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
@@ -481,10 +481,6 @@ a {
   letter-spacing: 0.02em;
   color: #fff;
   margin-bottom: 16px;
-}
-
-.social-container {
-  display: flex;
 }
 
 .social-icons {
