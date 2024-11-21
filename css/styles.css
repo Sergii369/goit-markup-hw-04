@@ -488,6 +488,18 @@ a {
   gap: 16px;
 }
 
-.social-links {
+.footer-social-links {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #4d5ae5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.footer-social-links:hover,
+.footer-social-links:focus {
+  background-color: #31d0aa;
 }
