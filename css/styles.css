@@ -229,8 +229,7 @@ a {
   color: #ffffff;
 }
 
-/* Feature*/
-
+/* Feature */
 .feature-list {
   display: flex;
   gap: 24px;
@@ -259,40 +258,16 @@ a {
   color: #434455;
 }
 
-.antena {
-  padding: 24px 100px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
+/* Стиль для контейнера */
+.icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 112px;
   background-color: #f4f4fd;
-}
-
-.icon-clock {
-  padding: 24px 100px;
-  border: 1px solid #8e8f99;
   border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
-}
-
-.icon-diagram {
-  padding: 24px 100px;
   border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
-}
-
-.icon-astronaut {
-  padding: 24px 100px;
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background-color: #f4f4fd;
+  margin-bottom: 8px;
 }
 
 /* Our teams */
